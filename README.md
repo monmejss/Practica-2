@@ -7,7 +7,8 @@ Posadas Gudiño José Alberto       2213026541
 
 #### Funcionamiento del programa
 #### Compilación  
-Para compilar el programa "BusquedaBinaria.c" primero ejecutamos el siguiente comando:  
+Para compilar el programa debemos ejecutar los siguientes comandos:  
+1. Primero creamos el 
 
 #### Marcos de las funciones  
 1. Main    
