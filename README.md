@@ -1,5 +1,5 @@
-#Practica 2
-Programación de E/S en lenguaje arm
+#Practica 2\n
+Programación de E/S en lenguaje arm\n
 
 Integrantes: 
 Abarca Antonio Mariana            2213064265 
