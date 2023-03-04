@@ -1,4 +1,4 @@
-# Practica 2
+# Práctica 2
 Integrantes:  
 Abarca Antonio Mariana            2213064265  
 Mejía Escutia Mónica Betsabe      2213026176  
