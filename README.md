@@ -7,8 +7,8 @@ Posadas Gudiño José Alberto       2213026541
 
 #### Funcionamiento del programa
 #### Compilación  
-Para compilar el programa debemos ejecutar los siguientes comandos:  
-1. Primero creamos el 
+Para compilar el archivo "BusquedaBinaria.s" debemos ejecutar los siguientes comandos:  
+1. Primero creamos el objeto con ´arm-as BusquedaBinaria.s -o BusquedaBinaria.o´  
 
 #### Marcos de las funciones  
 1. Main    
