@@ -29,7 +29,8 @@ Para esta función reservamos un espacio de 32 bytes, tenemos el espacio de 8 by
 5. Función Imprimir
 Primero reservamos el espacio de 8 bytes aunque sólo ocupamos para el apuntador del marco (r7), no tenemos variables locales y tenemos un sólo paŕametro pero reservamos espacio de 8 bytes, por lo que al final el marco queda de 16 bytes.  
   
-![imprimir](https://user-images.githubusercontent.com/122710250/222931284-85b1d0e0-4ef0-4b86-9f4c-bf1e73d9df28.png)
+![Captura desde 2023-03-04 16-32-49](https://user-images.githubusercontent.com/122710250/222931529-07b522eb-3e55-43f7-8cd2-9bbdc942369f.png)
+
 
 
 
