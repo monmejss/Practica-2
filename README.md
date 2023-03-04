@@ -1,3 +1,4 @@
+![main](https://user-images.githubusercontent.com/122710250/222928128-c64df566-8d56-4d49-9574-c8d0a702fd83.png)
 # Practica 2
 Integrantes:  
 Abarca Antonio Mariana            2213064265  
