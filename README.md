@@ -21,10 +21,15 @@ En esta función se hace una reserva de memoria de 32 bytes aunque sólo ocupamo
   
 ![input](https://user-images.githubusercontent.com/122710250/222929916-ae0b715a-5ebf-4086-9b65-c36a3c6a8be2.png)  
   
-4. Función int to string 
+4. Función int to string   
 Para esta función reservamos un espacio de 32 bytes, tenemos el espacio de 8 bytes para r7 y para lr aunque en este caso no se necesita. Tenemos 3 variables locales pero reservamos espacio de 16 bytes y por último tenemos a r0 como parámetro por lo que reservamos 8 bytes.  
   
 ![Intstring](https://user-images.githubusercontent.com/122710250/222930821-5c1d9648-3816-413e-bb3a-19ffd95c7507.png)
+  
+5. Función Imprimir
+Primero reservamos el espacio de 8 bytes aunque sólo ocupamos para el apuntador del marco (r7), no tenemos variables locales y tenemos un sólo paŕametro pero reservamos espacio de 8 bytes, por lo que al final el marco queda de 16 bytes.  
+  
+![imprimir](https://user-images.githubusercontent.com/122710250/222931284-85b1d0e0-4ef0-4b86-9f4c-bf1e73d9df28.png)
 
 
 
