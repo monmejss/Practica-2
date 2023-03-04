@@ -9,8 +9,12 @@ Posadas Gudiño José Alberto       2213026541
 1. Main    
 Para el marco de main se reservan 32 bytes. Tenemos los 8 bytes de la dirección del registro de enlace y el aputador del marco, en este caso no es necesario reservar espacio para los parametros de la función y al tener 6 variables locales ocupamos un espacio de 24 bytes. En la imagen se muestran el nombre de las variables y como se acomodan de 4 en 4 bytes.  
 
-![main](https://user-images.githubusercontent.com/122710250/222928337-003513c3-2a9b-4a89-9ba4-443730eb51ac.png)
+![main](https://user-images.githubusercontent.com/122710250/222928337-003513c3-2a9b-4a89-9ba4-443730eb51ac.png)  
+  
+2. Funcion input  
+En este caso no necesitamos el lr, sin embargo se deja el espacio de reserva sin poner ninguno valor en su bloque. La función imput tiene dos variables locales y no ocupamos parámetros por lo tanto la reserva que se hace en la memoria es de 16 bytes.  
 
+![input](https://user-images.githubusercontent.com/122710250/222929236-b304b6f0-130b-407e-85c2-6f6e61fade52.png)
 
 
 
