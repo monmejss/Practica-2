@@ -7,7 +7,7 @@ Posadas Gudiño José Alberto       2213026541
 
 #### Funcionamiento del programa
 #### Compilación  
-Para compilar el archivo "BusquedaBinaria.s" se debe:  
+Para compilar el archivo "BusquedaBinaria.s" se debe: 
 1. Crear el objeto  
 `arm-as BusquedaBinaria.s -o BusquedaBinaria.o`  
 2. Crear el archivo .elf  
