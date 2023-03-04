@@ -11,10 +11,20 @@ Para el marco de main se reservan 32 bytes. Tenemos los 8 bytes de la dirección
 
 ![main](https://user-images.githubusercontent.com/122710250/222928337-003513c3-2a9b-4a89-9ba4-443730eb51ac.png)  
   
-2. Funcion input  
+2. Función input  
 En este caso no necesitamos el lr, sin embargo se deja el espacio de reserva sin poner ninguno valor en su bloque. La función imput tiene dos variables locales y no ocupamos parámetros por lo tanto la reserva que se hace en la memoria es de 16 bytes.  
 
 ![input](https://user-images.githubusercontent.com/122710250/222929236-b304b6f0-130b-407e-85c2-6f6e61fade52.png)
+  
+3. Función atoi   
+En esta función se hace una reserva de memoria de 32 bytes aunque sólo ocupamos 28. Los dos bloques de hasta abajo están destinados a r7 y lr, en este caso no hay lr ya que la función atoi es una función hoja. Tenemos 4 variables locales que ocupan 16 bytes y sólo tenemos un parámetro representado con r0.  
+  
+![input](https://user-images.githubusercontent.com/122710250/222929916-ae0b715a-5ebf-4086-9b65-c36a3c6a8be2.png)  
+  
+4. Función int to string 
+Para esta función reservamos un espacio de 32 bytes, tenemos el espacio de 8 bytes para r7 y para lr aunque en este caso no se necesita. Tenemos 3 variables locales pero reservamos espacio de 16 bytes y por último tenemos a r0 como parámetro por lo que reservamos 8 bytes.  
+  
+![Intstring](https://user-images.githubusercontent.com/122710250/222930821-5c1d9648-3816-413e-bb3a-19ffd95c7507.png)
 
 
 
