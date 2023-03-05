@@ -6,8 +6,9 @@ Ibañez Aguilar Jonathan Alejandro 2213026738
 Posadas Gudiño José Alberto       2213026541  
 
 #### Funcionamiento del proyecto
-Mediante el programa BusquedaBinaria ingresamos un arreglo por medio de la terminal estándar empleando llamadas al sistema, esto mediante la modificación del archivo con extensión .s que resulta de compilar BusquedaBinaria.c.  
-Dicha modificación permite leer argumentos mediante la entrada estándar e imprimir el resultado en la terminal. Si el arreglo está ordenado podemos hacer uso de BusquedaBinaria para ubicar un valor específico.  
+Mediante el programa BusquedaBinaria ingresamos un arreglo por medio de la terminal estándar empleando llamadas al sistema, modificando el archivo con extensión .s que resulta de compilar BusquedaBinaria.c.  
+Dicha modificación permite leer argumentos mediante la entrada estándar e imprimir el resultado en la terminal, esto gracias a la creación de funciones.  
+Si el arreglo está ordenado podemos hacer uso de BusquedaBinaria para ubicar un valor especfico.  
 
 #### Compilación
 Para compilar el archivo "BusquedaBinaria.s" se debe: 
