@@ -6,7 +6,7 @@ Ibañez Aguilar Jonathan Alejandro 2213026738
 Posadas Gudiño José Alberto       2213026541  
 
 #### Funcionamiento del proyecto
-Mediante el programa "BusquedaBinaria.c" se generó un archivo con extensión .s el cúal fue modificado para que pudiera leer argumentos mediante la entrada estándar e imprimiera el resultado en la terminal.  
+Mediante el programa "BusquedaBinaria.c", el cúal procesa un arreglo, se generó un archivo con extensión .s el cúal fue modificado para que pudiera leer argumentos mediante la entrada estándar e imprimiera el resultado en la terminal.  
 
 Para compilar el archivo "BusquedaBinaria.s" se debe: 
 1. Crear el objeto  
